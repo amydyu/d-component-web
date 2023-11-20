@@ -1,39 +1,18 @@
-![image](https://github.com/Elisa16210/component-web/assets/126762287/31f5e088-0e38-42d0-98da-1b126305ab9b)# 使用外掛
-## Use CSS framework  
-```
-vuetify
-```
-## CDN(in index.html)
-### icon (fontawesome)
-```
-<script src="https://kit.fontawesome.com/cd51d51391.js" crossorigin="anonymous"></script>
-```
-### jquery
-```
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-```
+# 可用模塊 ( 文章 )
+- title：標題 (#title)
+- min-title：副標題
+- text：文字
+- list：清單
+- iframe：內嵌框架
+- pdf：文件檔
+- hr：分界線
+- nullData：空一行
+- img：圖片
+- sdgs：sDGS縮圖
+- video：影片
 
-# 修改主題色
-## 路徑(src/components/article.vue)
-```
-<style lang="scss" scoped>
-    $main-color: #568;
-</style>
-```
-# 可用模塊
-- title
-- icon-title
-- big-title
-- img
-- text
-- nullData
-- iframe
-- pdf
-- list
-- hr
 
-## title
+## title 標題{#title}
 帶有border-left的title
 ```
 {
