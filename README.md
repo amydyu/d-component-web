@@ -1,5 +1,5 @@
 # 可用模塊 ( 文章 )
-- title：標題 (#title)
+- [title：標題](#title)
 - min-title：副標題
 - text：文字
 - list：清單
@@ -12,7 +12,7 @@
 - video：影片
 
 
-## title 標題{#title}
+## title 標題 {#title}
 帶有border-left的title
 ```
 {
