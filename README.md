@@ -13,11 +13,11 @@
 - nullData：空一行
   
 進階：
-- twoObjects：版面對切
+- twoObjects：版面對切，左右可放資料
 - swapTextAndImg：版面對切，偶數調換
 
 ## title 標題
-一般大標題。
+- 一般大標題。
 ```
 {
     "componentType": "title",
@@ -26,7 +26,7 @@
 
 ```
 ## min-title　副標題
-一般副標題（小標題）。
+- 一般副標題（小標題）。
 ```
 {
     "componentType": "min-title",
@@ -34,8 +34,8 @@
 }
 ```
 ## text　文字
-#### 純文字 
-#### data陣列多筆文字，內容
+- 純文字 
+- data陣列多筆文字，內容
 ```
 {
     "componentType": "text",
@@ -50,7 +50,7 @@
 }
 ```
 
-帶有【連結】的text
+- 帶有【連結】的text
 ```
 {
     "componentType": "text",
@@ -72,10 +72,10 @@
 ```
 
 ##  list 清單
-type : 可設定ul & ol 
-data : 內容
-text : 內容文字
-text - data : 若有第二層再輸入
+- type : 可設定ul & ol 
+- data : 內容
+- text : 內容文字
+- text - data : 若有第二層再輸入
 ```
 {
     "componentType": "list",
@@ -133,7 +133,7 @@ text - data : 若有第二層再輸入
 
 ```
 
-list的連結：
+- list的連結：
 ```
 "link":{
     "text": "畫面上顯示的名稱",
@@ -142,7 +142,7 @@ list的連結：
 }
 ```
 
-list的 2~3 階層：
+- list的 2~3 階層：
 ```
 "data": {
     "type": "ol",
@@ -157,11 +157,10 @@ list的 2~3 階層：
 }
 ```
 
-
 ## iframe
-title:影片名稱(為了符合無障礙網站，需描述內容名稱)
-width:顯示在畫面上的寬度
-height:顯示在畫面上的高度
+- title:影片名稱(為了符合無障礙網站，需描述內容名稱)
+- width:顯示在畫面上的寬度
+- height:顯示在畫面上的高度
 ```
 {
     "componentType":"iframe",
@@ -174,10 +173,10 @@ height:顯示在畫面上的高度
 },
 ```
 ## pdf
-網頁上顯示pdf
-title:檔案名稱(為了符合無障礙網站，需描述內容名稱)
-width:顯示在畫面上的寬度
-height:顯示在畫面上的高度
+- 網頁上顯示pdf
+- title:檔案名稱(為了符合無障礙網站，需描述內容名稱)
+- width:顯示在畫面上的寬度
+- height:顯示在畫面上的高度
 ```
 {
     "componentType":"pdf",
@@ -192,11 +191,10 @@ height:顯示在畫面上的高度
 ```
 
 ## img 圖片 / 多張圖片
-圖片
-data陣列為多筆圖片，如圖片兩張以上顯示方式為　【輪播】　樣式。
-cols :網頁版的圖片顯示大小為畫面的８／１２　（只有單張圖片時適用）
-imgLink : 圖片路徑（請注意副檔名只能小寫）
-alt: 圖片名稱(為了符合無障礙網站，需描述圖片名稱)
+- data陣列為多筆圖片，如圖片兩張以上顯示方式為　【輪播】　樣式。
+- cols :網頁版的圖片顯示大小為畫面的８／１２　（只有單張圖片時適用）
+- imgLink : 圖片路徑（請注意副檔名只能小寫）
+- alt: 圖片名稱(為了符合無障礙網站，需描述圖片名稱)
 
 ```
 {
@@ -212,11 +210,10 @@ alt: 圖片名稱(為了符合無障礙網站，需描述圖片名稱)
 ```
 
 ## sdgs
-sdgs
-alignment :當網頁版的時候，整體對齊的方向。
-cols :手機板，圖片顯示大小為畫面的 ３／１２
-cols_md :網頁版，圖片顯示大小為畫面的　２／１２
-data: sdgs對應的編號為?
+- alignment :當網頁版的時候，整體對齊的方向。
+- cols :手機板，圖片顯示大小為畫面的 ３／１２
+- cols_md :網頁版，圖片顯示大小為畫面的　２／１２
+- data: sdgs對應的編號為?
 
 ```
 {
@@ -229,9 +226,9 @@ data: sdgs對應的編號為?
 ```
 
 ## video 影片
-videoTitle:檔案名稱(為了符合無障礙網站，需描述內容名稱)
-width:顯示在畫面上的寬度
-height:顯示在畫面上的高度
+- videoTitle:檔案名稱(為了符合無障礙網站，需描述內容名稱)
+- width:顯示在畫面上的寬度
+- height:顯示在畫面上的高度
 ```
 {
     "componentType": "video",
@@ -244,7 +241,7 @@ height:顯示在畫面上的高度
 ```
 
 ## hr 分界線
-網頁上顯示一條橫線
+- 網頁上顯示一條橫線
 ```
 {
     "componentType": "hr"
@@ -252,10 +249,72 @@ height:顯示在畫面上的高度
 ```
 
 ## nullData 空一行
-位畫面控一格
+- 位畫面控一格
 ```
 {
     "componentType": "nullData"
+}
+
+```
+
+## twoObjects 版面對切，左右可放資料
+- leftData：裡面可任意資料放 『上方的資料』 (非進階)
+- rightData：裡面可任意資料放 『上方的資料』 (非進階)
+```
+{
+  "componentType": "twoObjects",
+  "leftData":[
+      {
+          "componentType": "img",
+          "cols":"",
+          "data":[
+              {
+                  "imgLink":"index/index-digital.png",
+                  "alt": "數位科技與應用微學程形象圖案"
+              }
+          ]
+      }
+  ],
+  "rightData":[
+      {
+          "componentType": "title",
+          "data": "運用數位科技學習解決專業問題之能力"
+      }
+  ] 
+}
+
+```
+
+
+## swapTextAndImg 版面對切，偶數調換
+- contents：可以放多筆文字
+```
+{
+    "componentType": "swapTextAndImg",
+    "data":[
+        {
+            "imgLink":"圖片連結",
+            "imgtitle":"圖片名稱(為了符合無障礙網站，需描述圖片名稱)",
+            "title":"這是副標題",
+            "contents":[
+                {
+                    "text":"這個是內容"
+                }
+            ],
+            "link":"連結，沒有做外部連結，可以不要，但請勿任意調整"
+        },
+        {
+            "imgLink":"圖片連結",
+            "imgtitle":"圖片名稱(為了符合無障礙網站，需描述圖片名稱)",
+            "title":"這是副標題",
+            "contents":[
+                {
+                    "text":"這個是內容"
+                }
+            ],
+            "link":"連結，沒有做外部連結，可以不要，但請勿任意調整"
+        }
+    ]
 }
 
 ```
