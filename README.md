@@ -34,8 +34,8 @@
 }
 ```
 ## text　文字
-純文字
-data陣列多筆文字，內容
+#### 純文字 
+#### data陣列多筆文字，內容
 ```
 {
     "componentType": "text",
@@ -71,8 +71,8 @@ data陣列多筆文字，內容
 
 ```
 
-## list 清單
-type : 可設定ul & ol
+##  list 清單
+type : 可設定ul & ol 
 data : 內容
 text : 內容文字
 text - data : 若有第二層再輸入
