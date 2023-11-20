@@ -7,3 +7,4 @@ Bold and nested italic	** ** and _ _	None	**This text is _extremely_ important**
 All bold and italic	*** ***	None	***All this text is important***	All this text is important
 Subscript	<sub> </sub>	None	This is a <sub>subscript</sub> text	This is a subscript text
 Superscript	<sup> </sup>	None	This is a <sup>superscript</sup> text
+Use `git status` to list all new or modified files that haven't yet been committed.
