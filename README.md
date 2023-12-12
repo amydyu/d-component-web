@@ -208,6 +208,25 @@
     ]
 }
 ```
+```
+{
+    "componentType": "img",
+    "data":[
+        {
+            "imgLink":"index/index-communicate.png",
+            "alt": "請輸入圖片名稱"
+        },
+        {
+            "imgLink":"index/index-digital.png",
+            "alt": "請輸入圖片名稱"
+        },
+        {
+            "imgLink":"index/index-STEAM.png",
+            "alt": "請輸入圖片名稱"
+        }
+    ]
+}
+```
 
 ## sdgs
 - alignment :當網頁版的時候，整體對齊的方向。
