@@ -58,13 +58,20 @@
 {
     "componentType": "text",
     "data":[
-            {
-                "text": "如果中間有【畫面上顯示的名稱】會顯示在中間，如果沒有會加在最後面。",
-                "link":{
-                    "text": "畫面上顯示的名稱",
-                    "fileName": "檔案實際名稱",
-                    "link":"learn/directions/learnDirections01.pdf"
-                }
+             {
+                "text": "附件四 - 大葉大學「自主學習」申請計畫書。ODT格式(可編輯)PDF格式",
+                "link":[
+                    {
+                        "text": "ODT格式(可編輯)",
+                        "fileName": "大葉大學「自主學習」申請計畫書",
+                        "link":"learn/directions/appendix_4.odt"
+                    },
+                    {
+                        "text": "PDF格式",
+                        "fileName": "大葉大學「自主學習」申請計畫書",
+                        "link":"learn/directions/appendix_4.pdf"
+                    }
+                ]
             },
             {
                 "text": "第二行內容"
@@ -104,11 +111,18 @@
                                     },
                                     {
                                         "text": "第三階層二行",
-                                        "link":{
-                                            "text": "顯示的連結名稱",
-                                            "fileName": "檔案的連結名稱",
-                                            "link":"文件檔案名稱"
-                                        }
+                                        "link":[
+                                          {
+                                              "text": "ODT格式(可編輯)",
+                                              "fileName": "大葉大學「自主學習」申請計畫書",
+                                              "link":"learn/directions/appendix_4.odt"
+                                          },
+                                          {
+                                              "text": "PDF格式",
+                                              "fileName": "大葉大學「自主學習」申請計畫書",
+                                              "link":"learn/directions/appendix_4.pdf"
+                                          }
+                                        ]
                                     }
                                 ]
                             }
@@ -138,11 +152,18 @@
 
 - list的連結：
 ```
-"link":{
-    "text": "畫面上顯示的名稱",
-    "fileName": "檔案實際名稱",
-    "link":"learn/directions/learnDirections01.pdf"
-}
+"link":[
+    {
+        "text": "ODT格式(可編輯)",
+        "fileName": "大葉大學「自主學習」申請計畫書",
+        "link":"learn/directions/appendix_4.odt"
+    },
+    {
+        "text": "PDF格式",
+        "fileName": "大葉大學「自主學習」申請計畫書",
+        "link":"learn/directions/appendix_4.pdf"
+    }
+]
 ```
 
 - list的 2~3 階層：
