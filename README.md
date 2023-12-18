@@ -16,6 +16,9 @@
 - twoObjects：版面對切，左右可放資料
 - swapTextAndImg：版面對切，偶數調換
 
+其他：
+- 日誌、自主學習內容
+
 ## title 標題
 - 一般大標題。
 ```
@@ -333,6 +336,54 @@
                 }
             ],
             "link":"連結，沒有做外部連結，可以不要，但請勿任意調整"
+        }
+    ]
+}
+
+```
+
+
+## 日誌、自主學習內容
+- seq：自己填寫，只能增加，不可減少，特殊情況可以跳號，使用過的數字，請勿增加
+- imgLink：封面圖片連結
+- title：標題
+- update：發表日期
+- user_unit：發佈單位
+- user：發佈人姓名
+- content：自由編排內容，請參考上方【可用模塊】
+```
+{
+    "seq": "1",
+    "imgLink": "portfolio/certificate01.jpg",
+    "title": "「2023法律法遵科技黑客松」初賽入選",
+    "update": "2023-11-03",
+    "user_unit": "校發處",
+    "user": "黃莘扉",
+    "content": [
+        {
+            "componentType": "text",
+            "data":[
+                {
+                    "text": "資工系學生鄭翔瑋、林子喬"
+                },
+                {
+                    "text": "參加『2023法律法遵科技黑客松』比賽，"
+                },
+                {
+                    "text": "通過初賽前20名"
+                }
+            ]
+        },
+        {
+            "componentType": "nullData"
+        },
+        {
+            "componentType": "text",
+            "data":[
+                {
+                    "text": "指導老師：資工系施倫閔老師、財金系賴奕豪老師"
+                }
+            ]
         }
     ]
 }
