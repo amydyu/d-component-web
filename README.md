@@ -364,7 +364,6 @@
                 ],
                 "link":{
                     "title": "數位科技與應用微學程",
-                    "fileName": "1",
                     "link": "/course"
                 }
             } 
