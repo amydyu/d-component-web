@@ -337,26 +337,63 @@
     "componentType": "swapTextAndImg",
     "data":[
         {
-            "imgLink":"圖片連結",
-            "imgtitle":"圖片名稱(為了符合無障礙網站，需描述圖片名稱)",
-            "title":"這是副標題",
-            "contents":[
+            "leftData":[
                 {
-                    "text":"這個是內容"
+                    "componentType": "img",
+                    "cols":"",
+                    "data":[
+                        {
+                            "imgLink":"index/index-digital.png",
+                            "alt": "數位科技與應用微學程形象圖案"
+                        }
+                    ]
                 }
             ],
-            "link":"連結，沒有做外部連結，可以不要，但請勿任意調整"
+            "rightData":{
+                "title":"數位科技與應用微學程",
+                "contents":[
+                    {
+                        "text":"“Those who can imagine anything, can create the impossible.” – Alan Turing, Computer Scientist"
+                    },
+                    {
+                        "text":"「能夠想像任何事的人，可以創造不可能。」– 艾倫·圖靈 (電腦科學家)"
+                    },
+                    {
+                        "text":"　　數位科技與應用微學程以”運算思維”為基礎課程，鏈結校內不同專長領域教師開設創新多元的資訊應用課程，並導入企業實務專題，培養學生運用數位工具解決問題，創造想像中的未來，提升就業即戰力。"
+                    }
+                ],
+                "link":{
+                    "title": "數位科技與應用微學程",
+                    "fileName": "1",
+                    "link": "/course"
+                }
+            } 
         },
         {
-            "imgLink":"圖片連結",
-            "imgtitle":"圖片名稱(為了符合無障礙網站，需描述圖片名稱)",
-            "title":"這是副標題",
-            "contents":[
+           "leftData":[
                 {
-                    "text":"這個是內容，可以放多筆文字，同text文字的data用法，不可超連結"
+                    "componentType": "img",
+                    "cols":"",
+                    "data":[
+                        {
+                            "imgLink":"圖片連結",
+                            "alt": "請輸入圖片名稱"
+                        }
+                    ]
                 }
             ],
-            "link":"連結，沒有做外部連結，可以不要，但請勿任意調整"
+            "rightData":{
+                "title":"文字標題",
+                "contents":[
+                    {
+                        "text":"這個是內容，可以放多筆文字。"
+                    }
+                ],
+                "link":{
+                    "title": "連結名稱",
+                    "link": "連結路徑"
+                }
+            } 
         }
     ]
 }
